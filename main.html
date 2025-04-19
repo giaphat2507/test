@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>So sánh Power BI và Looker Studio</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        max-width: 1000px;
+        margin: auto;
+        background: white;
+        padding: 30px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      }
+      h1,
+      h2,
+      h3 {
+        color: #2c3e50;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 30px;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid #ccc;
+      }
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+      }
+      img {
+        max-width: 100%;
+        margin: 15px 0;
+      }
+      .section {
+        margin-bottom: 40px;
+      }
+      .highlight {
+        background: #ecf0f1;
+        padding: 10px;
+        border-left: 4px solid #3498db;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      @media (max-width: 600px) {
+        .container {
+          padding: 15px;
+        }
+        h1 {
+          font-size: 24px;
+        }
+        h2 {
+          font-size: 20px;
+        }
+        h3 {
+          font-size: 18px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>BÁO CÁO SO SÁNH POWER BI VÀ LOOKER STUDIO</h1>
+
+      <div class="section">
+        <h2>1. Tổng quan về hai công cụ</h2>
+        <img src="./images/power-bi-vs-looker.png" alt="Power BI" />
+        <table>
+          <tr>
+            <th>Tiêu chí</th>
+            <th>Power BI</th>
+            <th>Looker Studio</th>
+          </tr>
+          <tr>
+            <td>Nhà phát triển</td>
+            <td>Microsoft</td>
+            <td>Google</td>
+          </tr>
+          <tr>
+            <td>Năm ra mắt</td>
+            <td>2015</td>
+            <td>2016</td>
+          </tr>
+          <tr>
+            <td>Mục tiêu chính</td>
+            <td>Phân tích dữ liệu</td>
+            <td>Trực quan hóa đơn giản</td>
+          </tr>
+          <tr>
+            <td>Môi trường hoạt động</td>
+            <td>Desktop + Web</td>
+            <td>Web-based</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="section">
+        <h2>2. Giao diện người dùng</h2>
+        <h3>Power BI</h3>
+        <p>Giao diện mạnh mẽ, hỗ trợ drag-and-drop biểu đồ, bảng, slicer,...</p>
+        <img src="./images/Picture116.png" alt="Giao diện Power BI" />
+
+        <h3>Looker Studio</h3>
+        <p>
+          Giao diện đơn giản, tương tự Google Slides, tích hợp tốt với các dịch
+          vụ Google.
+        </p>
+        <img
+          src="./images/Screenshot-2024-04-05-at-13.41.42.webp"
+          alt="Giao diện Looker Studio"
+        />
+      </div>
+
+      <div class="section">
+        <h2>3. Khả năng kết nối dữ liệu</h2>
+        <table>
+          <tr>
+            <th>Tiêu chí</th>
+            <th>Power BI</th>
+            <th>Looker Studio</th>
+          </tr>
+          <tr>
+            <td>Nguồn dữ liệu</td>
+            <td>SQL Server, Excel, Web APIs,...</td>
+            <td>Google Sheets, BigQuery, Analytics,...</td>
+          </tr>
+          <tr>
+            <td>Số lượng nguồn</td>
+            <td>>150</td>
+            <td>>800 (qua Connector)</td>
+          </tr>
+          <tr>
+            <td>Xử lý dữ liệu nâng cao</td>
+            <td>DAX, Power Query</td>
+            <td>Hàm tương tự Sheets</td>
+          </tr>
+        </table>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <img
+            src="./images/Data_integration_and_Compatibility_Power_BI-1.jpg"
+            alt="Kết nối dữ liệu Power BI"
+            style="width: 48%; height: auto;"
+          />
+          <img
+            src="./images/Data_integration_and_Compatibility_Looker-1.jpg"
+            alt="Kết nối dữ liệu Looker Studio"
+            style="width: 48%; height: auto;"
+          />
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>4. Phân tích và trực quan hóa</h2>
+        <img
+          src="./images/Screenshot 2025-04-19 181857.png"
+          alt="Trực quan hóa Power BI"
+        />
+        <table>
+          <tr>
+            <th>Tiêu chí</th>
+            <th>Power BI</th>
+            <th>Looker Studio</th>
+          </tr>
+          <tr>
+            <td>Dashboard</td>
+            <td>Chuyên nghiệp, nhiều biểu đồ</td>
+            <td>Đơn giản, cơ bản</td>
+          </tr>
+          <tr>
+            <td>Drill-down</td>
+            <td>Có</td>
+            <td>Có nhưng giới hạn</td>
+          </tr>
+          <tr>
+            <td>AI & ML</td>
+            <td>Smart Narrative, Q&A</td>
+            <td>Không</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="section">
+        <h2>5. Giá cả và triển khai</h2>
+        <table>
+          <tr>
+            <th>Tiêu chí</th>
+            <th>Power BI</th>
+            <th>Looker Studio</th>
+          </tr>
+          <tr>
+            <td>Phiên bản miễn phí</td>
+            <td>Có (Desktop)</td>
+            <td>Có (hoàn toàn miễn phí)</td>
+          </tr>
+          <tr>
+            <td>Trả phí</td>
+            <td>Power BI Pro (~$10/user)</td>
+            <td>Looker nâng cao (trả phí)</td>
+          </tr>
+          <tr>
+            <td>Triển khai</td>
+            <td>Cài đặt hoặc Web</td>
+            <td>Chạy trình duyệt</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="section">
+        <h2>6. Ưu & Nhược điểm</h2>
+        <table>
+          <tr>
+            <th>Công cụ</th>
+            <th>Ưu điểm</th>
+            <th>Nhược điểm</th>
+          </tr>
+          <tr>
+            <td>Power BI</td>
+            <td>Phân tích mạnh, biểu đồ đa dạng, có AI</td>
+            <td>Phức tạp, có phí nếu chia sẻ rộng</td>
+            <tr>
+                <td>Power BI</td>
+                <td>Hỗ trợ nhiều nguồn dữ liệu, khả năng xử lý mạnh với luồng dữ liệu lớn</td>
+                <td>Yêu cầu học tập và đào tạo bài bản, chi phí cao hơn</td>
+            </tr>
+          </tr>
+          <tr>
+            <td>Looker Studio</td>
+            <td>Dễ dùng, miễn phí, tích hợp Google,dễ dàng sử dụng cho người mới</td>
+            <td>Giới hạn tính năng nâng cao</td>
+          </tr>
+          <tr>
+            <td>Looker Studio</td>
+            <td>Dễ dàng chia sẽ các thông tin thông qua share dirve và mail</td>
+            <td>Với lượng dữ liệu lớn thì dashboard sẽ bị chậm</td>
+        </tr>
+        </table>
+        <img
+          src="./images/Conclusion_Power_BI_Benefits-1.jpg"
+          alt="So sánh Power BI và Looker Studio"
+        />
+        <img
+          src="./images/Conclusion_Looker_Benefits-1.jpg"
+          alt="So sánh Power BI và Looker Studio"
+      </div>
+    </div>
+  </body>
+</html>
